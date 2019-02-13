@@ -1,0 +1,78 @@
+body{
+ font-family: sans-serif;
+  font-size: 2rem;
+  background:radial-gradient(rgba(100,200,225,0.3),rgba(3,3,3,0.5)) no-repeat;
+  background-size: cover;
+  min-height:100vh;
+  text-align: center;
+}
+.intake{
+  margin:2.2rem 20px;
+  padding: 10px;
+}
+.intake input{
+  padding:7px 10px;
+  border-radius: 3px;
+  width: 200px;
+  border:2px solid lightgray;
+  font-size: 1.2rem;
+  margin: auto;
+
+}
+.intake button{
+  padding:10px 6px; 
+  border-radius: 3px;
+  font-size: 1rem;
+  border:none;
+  color: #c6c6c6;
+  background: rgba(0,0,0,0.4);
+  box-shadow:2px 5px 10px #333;
+}
+
+.intake button:hover{
+   box-shadow:2px 3px 10px #333;
+}
+.password-board{
+  height: 50px;
+}
+.password-board p{
+  background: transparent;
+  height: 50px;
+  padding:20px;
+  margin:0 10%;
+  box-shadow:3px 2px 10px #333;
+  text-align: center;
+  letter-spacing: 0.4rem
+}
+
+.prefs{
+  margin:1rem auto;
+  padding: 5px;
+  text-align: justify;
+}
+.prefs ul li{
+  list-style:none;
+  font-size: 1rem;
+  display: inline-block;
+  float:left;
+  padding: 10px;
+}
+.prefs ul li ul{
+  font-size:0.8rem;
+  color:#667;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
